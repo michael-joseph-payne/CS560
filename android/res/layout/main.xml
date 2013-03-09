@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-              android:orientation="vertical">
-
-    <Button android:id="@+id/speakButton"
-            android:layout_width="fill_parent"
-            android:onClick="speakButtonClicked"
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@android:color/white">
+    <ImageView
+            android:layout_width="233dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="6dp" android:src="@drawable/opencaptiontitle"
+            android:layout_alignParentRight="true" android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"/>
+    <ImageButton
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Record!" />
-
-    <ListView android:id="@+id/list"
-              android:layout_width="fill_parent"
-              android:layout_height="0dip"
-              android:layout_weight="1" />
-
-</LinearLayout>
+            android:id="@+id/imageButton"
+            android:clickable="false"
+            android:cropToPadding="false"
+            android:background="@null" android:layout_centerHorizontal="true" android:layout_below="@+id/imageView"/>
+</RelativeLayout>
