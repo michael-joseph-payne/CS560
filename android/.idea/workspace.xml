@@ -43,13 +43,18 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$PROJECT_DIR$/res/values/strings.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1359000202508" ignored="false" />
     <file path="/main.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362806520198" ignored="false" />
-    <file path="/MainActivity.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362810007590" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362808981356" ignored="false" />
-    <file path="/fragment.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362805719072" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/psu/hci/OpenCaption/R.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362806886842" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/psu/hci/OpenCaption/Manifest.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362809004086" ignored="false" />
-    <file path="/Dummy.txt" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362808865464" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/psu/hci/OpenCaption/BuildConfig.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1362809004086" ignored="false" />
+    <file path="/MainActivity.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363064393262" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363065307466" ignored="false" />
+    <file path="/fragment.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363062566758" ignored="false" />
+    <file path="/Dummy.txt" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363065015267" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/AndroidManifest.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363062950714" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/res/layout/main.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363064696917" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/build.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363062950714" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/res/values/strings.xml" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363062950714" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/src/com/example/OpenCaption2/MyActivity.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363065110157" ignored="false" />
+    <file path="/MyActivity.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363065081052" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/gen/com/example/OpenCaption2/Manifest.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363064744581" ignored="false" />
+    <file path="$PROJECT_DIR$/../OpenCaption2/gen/com/example/OpenCaption2/BuildConfig.java" changelist="95624600-79ea-44be-9320-8bc61a106988" time="1363064744581" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,26 +110,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="OpenCaption" />
+    <favorites_list name="android" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="43" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.36123347">
+            <state line="104" column="130" selection-start="3455" selection-end="3455" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3076#3603#0" expanded="true" />
-                <element signature="e#3592#3593#0" expanded="true" />
+                <element signature="e#3150#3677#0" expanded="true" />
+                <element signature="e#3666#3667#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="70" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
+            <state line="6" column="70" selection-start="336" selection-end="336" vertical-scroll-proportion="0.11857708">
               <folding />
             </state>
           </provider>
@@ -139,18 +145,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="51" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -162,15 +156,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="85" />
     <option name="y" value="22" />
-    <option name="width" value="1561" />
+    <option name="width" value="1881" />
     <option name="height" value="1178" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -216,32 +209,35 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
+              <option name="myItemId" value="android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -253,87 +249,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OpenCaption" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="OverrideImplement.combined" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="Errors" />
-    <property name="last_opened_file_path" value="$USER_HOME$/android-sdks/samples/android-17" />
-    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/voiceimeutils.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/drawable-hdpi" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.OpenCaption">
+  <component name="RunManager" selected="Android Application.android">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -365,19 +309,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -403,6 +334,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -471,8 +415,26 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="android" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="android" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Android Application.OpenCaption" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.android" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -507,8 +469,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="85" y="22" width="1561" height="1178" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1881" height="1178" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,15 +481,15 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32986766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25614366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24884489" sideWeight="0.67013234" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2054496" sideWeight="0.7438563" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39537954" sideWeight="0.67013234" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32541254" sideWeight="0.67013234" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -598,60 +560,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="44" selection-start="631" selection-end="631" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3076#3603#0" expanded="true" />
-            <element signature="e#3592#3593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="51" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="158" selection-start="1779" selection-end="1779" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3076#3603#0" expanded="true" />
-            <element signature="e#3592#3593#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="133" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="40" selection-start="1446" selection-end="1446" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3076#3603#0" expanded="true" />
-            <element signature="e#3592#3593#0" expanded="true" />
+            <element signature="e#3150#3677#0" expanded="true" />
+            <element signature="e#3666#3667#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -671,8 +584,8 @@
         <state line="5" column="13" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3076#3603#0" expanded="true" />
-            <element signature="e#3592#3593#0" expanded="true" />
+            <element signature="e#3150#3677#0" expanded="true" />
+            <element signature="e#3666#3667#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,12 +601,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
+      <provider editor-type-id="text-editor">
         <state line="19" column="51" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -704,21 +617,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="70" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="104" column="130" selection-start="3455" selection-end="3455" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3150#3677#0" expanded="true" />
+            <element signature="e#3666#3667#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/psu/hci/OpenCaption/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="43" selection-start="2551" selection-end="2551" vertical-scroll-proportion="0.36123347">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3076#3603#0" expanded="true" />
-            <element signature="e#3592#3593#0" expanded="true" />
-          </folding>
+        <state line="6" column="70" selection-start="336" selection-end="336" vertical-scroll-proportion="0.11857708">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,12 +687,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>OpenCaption</last-edited>
+          <last-edited>android</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android 4.0 Google APIs</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

@@ -18,6 +18,7 @@ public class MainActivity extends Activity {
     private int SPEECH_REQUEST_CODE = 1234;
     static boolean recording = false;
     static final String tag = "Open_Caption";
+    SpeechRecognizer sr;
 
     /**
      * Called with the activity is first created.
@@ -28,14 +29,17 @@ public class MainActivity extends Activity {
         setContentView(R.layout.main);
 
         final Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, "");
-        intent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS,true);
+        intent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
 
         final ImageButton button = (ImageButton) findViewById(R.id.imageButton);
         button.setBackground(getResources().getDrawable(R.drawable.micnotrecording));
 
 
-        final SpeechRecognizer sr = SpeechRecognizer.createSpeechRecognizer(MainActivity.this);
+
+        if (SpeechRecognizer.isRecognitionAvailable(MainActivity.this)) {
+            sr = SpeechRecognizer.createSpeechRecognizer(this);
+
+
         sr.setRecognitionListener(new RecognitionListener() {
             @Override
             public void onReadyForSpeech(Bundle params) {
@@ -60,20 +64,24 @@ public class MainActivity extends Activity {
             @Override
             public void onEndOfSpeech() {
                 Log.d(tag, "onEndOfSpeech");
-                sr.stopListening();
             }
 
             @Override
             public void onError(int error) {
-                Log.d(tag, "onError" + error);
+                Log.d(tag, "onError " + error);
+                sr.stopListening();
+                sr.cancel();
+                sr.destroy();
+                recording  = false;
+                button.setBackground(getResources().getDrawable(R.drawable.micnotrecording));
+
             }
 
             @Override
             public void onResults(Bundle b) {
                 ArrayList<String> results = b.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
                 Log.d(tag, "onResults = " + results.get(0));
-                sr.stopListening();
-                sr.startListening(intent);
+
             }
 
             @Override
@@ -86,12 +94,7 @@ public class MainActivity extends Activity {
             public void onEvent(int eventType, Bundle params) {
                 Log.d(tag, "onEvent");
             }
-
-            // other required methods
         });
-
-
-
 
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -106,24 +109,23 @@ public class MainActivity extends Activity {
                 }
             }
         });
-//
-////        // Disable button if no recognition service is present
-//        PackageManager pm = getPackageManager();
-//        List<ResolveInfo> activities = pm.queryIntentActivities(new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH), 0);
-//
-//        if (activities.size() == 0) {
-//            speakButton.setEnabled(false);
-//            speakButton.setText("Recognizer not present");
-//        }
+        } else {
+            Toast.makeText(MainActivity.this,"No Recognizer Availible",Toast.LENGTH_LONG).show();
+        }
+
+
     }
 
-    private void sendRecognizeIntent() {
-        Intent intent = new Intent(RecognizerIntent.ACTION_VOICE_SEARCH_HANDS_FREE);
-        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
-                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
-        intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Say the magic word");
-        intent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 100);
-        startActivityForResult(intent, SPEECH_REQUEST_CODE);
+    @Override
+    protected void onPause()
+    {
+        if (sr != null)
+        {
+            sr.stopListening();
+            sr.cancel();
+            sr.destroy();
+        }
+        super.onPause();
     }
 
     /**
@@ -140,5 +142,7 @@ public class MainActivity extends Activity {
         }
         super.onActivityResult(requestCode, resultCode, data);
     }
+
+
 }
 
