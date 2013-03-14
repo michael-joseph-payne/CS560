@@ -12,9 +12,9 @@ $string = $_GET['string'];
 
 $con = mysql_connect("localhost","root","opencaption");
 
-mysql_select_db("demo", $con);
+mysql_select_db("opencaption", $con);
 
-$sql ="INSERT INTO strings (string) ";
+$sql ="INSERT INTO demo (string) ";
 $sql.="VALUES ('$string')";
 
 if (!mysql_query($sql,$con))
