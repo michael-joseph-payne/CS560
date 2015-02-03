@@ -74,6 +74,8 @@ fclose($file);
 
 mysql_close($con);
 
+<p>Hi Heather!<p>
+
 ?>
 
 </body>
